@@ -25,6 +25,6 @@ class PriorityQueue:
             return self.items.pop(highest)
         
     def peek(self):
-        highest = findMaxIndex()
+        highest = self.findMaxIndex()
         if highest is not None:
             return self.items[highest]
